@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+  </head>
+  <body>
+    <form action="viraj.txt" method="get">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label>User Name</label>
+        <input
+          minlength="10"
+          maxlength="20"
+          autofocus
+          readonly
+          disabled
+          type="text"
+          required
+          name="username"
+          placeholder="Enter your name"
+          value="viraj"
+        /><br /><br />
+
+        <label> Email</label>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your Email"
+          value="virajhole@gmail.com"
+        /><br /><br />
+
+        <label>Mobile number</label>
+        <input
+          type="number"
+          name="Mnumber"
+          placeholder="Enter your number"
+          value="7774829155"
+        />
+        <br /><br />
+
+        <label>Date of birth</label>
+        <input
+          type="date"
+          name="Bdate"
+          value="2000-12-07"
+          min="2000-11-07"
+          max="2000-12-15"
+        /><br /><br />
+
+        <label> photo </label>
+        <input type="file" name="photo" /><br /><br />
+
+        <label>gender</label>
+        <input type="radio" name="gender" value="male" checked />Male
+        <input type="radio" name="gender" value="Female" />Female <br />
+        <br />
+
+        <label>Address</label>
+        <textarea
+          name="address"
+          cols="20"
+          rows="5"
+          name="address"
+          placeholder="Enter your address"
+        ></textarea>
+        <br />
+        <br />
+
+        <label> Deparment</label>
+        <select name="Deparment">
+          <option value="choose">choose</option>
+          <option value="computer">Computer</option>
+          <option value="math" selected>Math</option>
+          <option value="arts">arts</option>
+        </select>
+        <br />
+        <br />
+
+        <label>subject</label>
+        <input value="maths" type="checkbox" name="subject1" />
+        <b>Math</b>
+        <input value="computers" type="checkbox" name="subject2" checked />
+        <b>Computer</b> <br />
+        <br />
+
+        <label>Password</label>
+        <input
+          type="password"
+          name=""
+          id=""
+          name="password"
+          placeholder="Enter your password"
+          value="password"
+        />
+        <br /><br />
+
+        <input type="reset" name="rest" />
+        <input type="submit" name="submit" />
+      </fieldset>
+    </form>
+
+    
+  </body>
+</html>
